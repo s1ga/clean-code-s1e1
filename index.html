@@ -16,8 +16,10 @@
   <div class="main">
     <p id="adding">
       <label for="new-task">Add Item</label>
-      <input id="new-task" type="text">
-      <button>Add</button>
+      <div class="task-row-wrapper">
+          <input id="new-task" class="task" type="text">
+          <button>Add</button>
+      </div>
     </p>
     
     <h3>Todo</h3>
@@ -49,7 +51,7 @@
       <li>
         <input type="checkbox" checked>
         <label class="task">See the Doctor</label>
-        <input type="text">
+        <input type="text" class="task">
         <button class="edit_btn">Edit</button>
         <button class="delete_btn">
           <img src="./remove.svg">
